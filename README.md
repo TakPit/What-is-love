@@ -1,2 +1,2 @@
-# What-it-love
+# What-is-love
 Language Technology project about the shift in the semantic field of love in song lyrics
