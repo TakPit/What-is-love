@@ -1,0 +1,8 @@
+{
+  "alignment_method": "chained_orthogonal_procrustes",
+  "base_label": "1960_1969",
+  "num_labels_aligned": 6,
+  "alignment_manifest": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/alignment_manifest.csv",
+  "phase2_ready_json": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/phase2_ready.json",
+  "total_wall_seconds": 43.98022174835205
+}

@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "inventory_name": "config1",
+    "project": "diachronic_lyrics_phase2",
+    "notes": "Starter config for the focused love/intimacy analysis. Edit targets, axes, anchors, and settings here rather than inside the Python script. Coverage should be checked before scoring axes."
+  },
+  "settings": {
+    "decades": [
+      "1960_1969",
+      "1970_1979",
+      "1980_1989",
+      "1990_1999",
+      "2000_2009",
+      "2010_2019"
+    ],
+    "min_count": 20
+  },
+  "targets": [
+    "love",
+    "heart",
+    "baby",
+    "desire",
+    "kiss"
+  ],
+  "axes": [
+    {
+      "axis_id": "affection_vs_conflict",
+      "label": "Affection vs Conflict",
+      "positive_pole_name": "affection",
+      "negative_pole_name": "conflict",
+      "positive_anchors": [
+        "affection",
+        "sweetheart",
+        "devotion",
+        "cherish",
+        "darling"
+      ],
+      "negative_anchors": [
+        "hurt",
+        "broken",
+        "sorrow",
+        "lonely",
+        "tears"
+      ],
+      "notes": "Main hypothesis axis for whether intimacy language drifts toward tenderness or pain / breakup framing."
+    },
+    {
+      "axis_id": "romance_vs_desire",
+      "label": "Romance vs Desire/Sexuality",
+      "positive_pole_name": "romance",
+      "negative_pole_name": "desire",
+      "positive_anchors": [
+        "affection",
+        "tenderness",
+        "devotion",
+        "cherish",
+        "sweetness"
+      ],
+      "negative_anchors": [
+        "lust",
+        "passion",
+        "temptation",
+        "body",
+        "heat"
+      ],
+      "notes": "Separates affectionate/relational framing from more bodily or desire-driven framing."
+    },
+    {
+      "axis_id": "permanence_vs_transience",
+      "label": "Permanence vs Transience",
+      "positive_pole_name": "permanence",
+      "negative_pole_name": "transience",
+      "positive_anchors": [
+        "forever",
+        "lasting",
+        "eternal",
+        "always",
+        "permanent"
+      ],
+      "negative_anchors": [
+        "fleeting",
+        "temporary",
+        "passing",
+        "leave",
+        "gone"
+      ],
+      "notes": "Temporal-stability axis. This one is likely to need coverage-driven pruning because some anchors may be too rare in lyrics."
+    }
+  ]
+}

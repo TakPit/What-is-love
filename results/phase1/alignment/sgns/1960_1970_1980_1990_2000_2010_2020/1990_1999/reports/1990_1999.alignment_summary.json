@@ -1,0 +1,13 @@
+{
+  "label": "1990_1999",
+  "is_base_label": false,
+  "aligned_to_previous_label": "1980_1989",
+  "output_files": {
+    "keyed_vectors": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1990_1999/model/1990_1999.kv",
+    "vectors_txt": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1990_1999/model/1990_1999.vectors.txt",
+    "vectors_bin": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1990_1999/model/1990_1999.vectors.bin",
+    "cumulative_rotation_to_base": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1990_1999/model/1990_1999.cumulative_rotation_to_base.npy",
+    "vocab_csv": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1990_1999/reports/1990_1999.vocab.csv",
+    "target_coverage": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1990_1999/reports/1990_1999.target_coverage.json"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "bin_labels": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ],
+  "warnings": [
+    "Token imbalance across bins is high (2010_2019 / 1960_1969 = 66.15)."
+  ],
+  "missing_targets": {},
+  "token_imbalance": {
+    "min_bin": "1960_1969",
+    "min_tokens": 6943954,
+    "max_bin": "2010_2019",
+    "max_tokens": 459343810,
+    "max_over_min_ratio": 66.1502
+  },
+  "threshold_summary": {
+    "5": {
+      "shared_vocab_all_bins": 15430,
+      "per_bin_vocab": {
+        "1960_1969": 19056,
+        "1970_1979": 27028,
+        "1980_1989": 36476,
+        "1990_1999": 64849,
+        "2000_2009": 91517,
+        "2010_2019": 203443
+      }
+    },
+    "10": {
+      "shared_vocab_all_bins": 11116,
+      "per_bin_vocab": {
+        "1960_1969": 13003,
+        "1970_1979": 18505,
+        "1980_1989": 25610,
+        "1990_1999": 45641,
+        "2000_2009": 63622,
+        "2010_2019": 133707
+      }
+    },
+    "20": {
+      "shared_vocab_all_bins": 7775,
+      "per_bin_vocab": {
+        "1960_1969": 8710,
+        "1970_1979": 12401,
+        "1980_1989": 17416,
+        "1990_1999": 31843,
+        "2000_2009": 45264,
+        "2010_2019": 91226
+      }
+    },
+    "50": {
+      "shared_vocab_all_bins": 4712,
+      "per_bin_vocab": {
+        "1960_1969": 5042,
+        "1970_1979": 7203,
+        "1980_1989": 10265,
+        "1990_1999": 19530,
+        "2000_2009": 28606,
+        "2010_2019": 57514
+      }
+    }
+  },
+  "interpretation_notes": [
+    "Use bin_summary.csv to compare corpus size and token-quality diagnostics across the requested bins.",
+    "Use target_word_counts_by_bin.csv to check whether key analysis words remain available after rebinnig.",
+    "Use threshold_coverage_by_bin.csv and shared_vocab_intersection.csv to anticipate stability for later embedding alignment and focused analysis.",
+    "The gzipped files in sentences_by_bin/ are the training-ready text corpora for the same bin specification."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "comparison_name": "1980_1989_to_1990_1999",
+  "left_label": "1980_1989",
+  "right_label": "1990_1999",
+  "n_words_full": 6678,
+  "n_words_clean": 6384,
+  "distance_stats_full": {
+    "n": 6678,
+    "mean": 0.4024498861246246,
+    "median": 0.4021240770816803,
+    "std": 0.09517541166395126,
+    "min": 0.09769457578659058,
+    "p01": 0.16148026704788207,
+    "p05": 0.23680948317050934,
+    "p25": 0.343288853764534,
+    "p75": 0.4657594710588455,
+    "p95": 0.5568407893180847,
+    "p99": 0.6253562727570533,
+    "max": 0.7687143534421921
+  },
+  "distance_stats_clean": {
+    "n": 6384,
+    "mean": 0.4004358088429597,
+    "median": 0.3998664617538452,
+    "std": 0.09202502587133235,
+    "min": 0.11060607433319092,
+    "p01": 0.16737099409103393,
+    "p05": 0.24100830256938935,
+    "p25": 0.34272144734859467,
+    "p75": 0.46169963479042053,
+    "p95": 0.5501846775412559,
+    "p99": 0.6108852621912957,
+    "max": 0.7687143534421921
+  },
+  "distance_vs_log_min_count_spearman_full": {
+    "rho": -0.5033194358004734,
+    "pvalue": 0.0
+  },
+  "distance_vs_log_min_count_spearman_clean": {
+    "rho": -0.5072295125375974,
+    "pvalue": 0.0
+  },
+  "distance_vs_log_mean_count_spearman_full": {
+    "rho": -0.46839724233947894,
+    "pvalue": 0.0
+  },
+  "distance_vs_log_mean_count_spearman_clean": {
+    "rho": -0.468320703308374,
+    "pvalue": 0.0
+  },
+  "distance_vs_count_ratio_spearman_full": {
+    "rho": 0.14452365358200392,
+    "pvalue": 1.6847854650219006e-32
+  },
+  "distance_vs_count_ratio_spearman_clean": {
+    "rho": 0.16108588333221535,
+    "pvalue": 2.2622722226806732e-38
+  },
+  "files": {
+    "full_csv": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/pairwise/1980_1989_to_1990_1999/1980_1989_to_1990_1999.full.csv",
+    "clean_csv": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/pairwise/1980_1989_to_1990_1999/1980_1989_to_1990_1999.clean.csv",
+    "top100_full_csv": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/pairwise/1980_1989_to_1990_1999/1980_1989_to_1990_1999.top100_full.csv",
+    "top100_clean_csv": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/pairwise/1980_1989_to_1990_1999/1980_1989_to_1990_1999.top100_clean.csv",
+    "neighbors_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/pairwise/1980_1989_to_1990_1999/1980_1989_to_1990_1999.neighbors.json",
+    "summary_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/pairwise/1980_1989_to_1990_1999/1980_1989_to_1990_1999.summary.json"
+  }
+}

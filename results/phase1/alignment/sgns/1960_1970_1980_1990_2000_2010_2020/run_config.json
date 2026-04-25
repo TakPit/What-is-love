@@ -1,0 +1,33 @@
+{
+  "input_run_dir": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "output_dir": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "ordered_labels": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ],
+  "targets": [
+    "baby",
+    "broken",
+    "desire",
+    "forever",
+    "heart",
+    "hurt",
+    "kiss",
+    "love",
+    "mine",
+    "touch"
+  ],
+  "alignment_method": "chained_orthogonal_procrustes",
+  "base_label": "1960_1969",
+  "anchor_min_count": 100,
+  "max_anchor_words": 20000,
+  "eval_fraction": 0.1,
+  "min_eval_words": 500,
+  "max_eval_words": 2000,
+  "normalize_for_op": true,
+  "target_neighbors_topn": 20
+}

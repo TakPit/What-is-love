@@ -1,0 +1,24 @@
+{
+  "alignment_run_dir": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "output_dir": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "ordered_labels": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ],
+  "num_labels": 6,
+  "total_wall_seconds": 7.473147392272949,
+  "top_level_files": {
+    "run_config_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/run_config.json",
+    "comparison_manifest_csv": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/comparison_manifest.csv",
+    "whole_range_summary_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/whole_range/1960_1969_to_2010_2019.summary.json",
+    "stable_all_labels_summary_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/stable_all_labels/stable_all_labels.summary.json",
+    "target_trajectories_csv": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/targets/target_trajectories.csv",
+    "target_neighbors_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/targets/target_neighbors.json",
+    "interpretation_notes_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/interpretation/interpretation_notes.json",
+    "vocabulary_overview_json": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/vocabulary_overview.json"
+  }
+}

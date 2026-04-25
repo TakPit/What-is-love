@@ -1,0 +1,31 @@
+{
+  "input_run_dir": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "alignment_output_dir": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "displacement_output_dir": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "ordered_labels": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ],
+  "alignment_summary": {
+    "ordered_labels": [
+      "1960_1969",
+      "1970_1979",
+      "1980_1989",
+      "1990_1999",
+      "2000_2009",
+      "2010_2019"
+    ],
+    "alignment_manifest": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/alignment_manifest.csv",
+    "run_summary": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/run_summary.json",
+    "phase2_ready_json": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/phase2_ready.json"
+  },
+  "displacement_summary": {
+    "comparison_manifest": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/comparison_manifest.csv",
+    "run_summary": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020/run_summary.json"
+  },
+  "total_wall_seconds": 51.515998125076294
+}

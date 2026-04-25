@@ -1,0 +1,15 @@
+{
+  "run_name": "1960_1970_1980_1990_2000_2010_2020",
+  "prep_run_id": "1960_1970_1980_1990_2000_2010_2020",
+  "selected_bins": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ],
+  "num_bins_trained": 6,
+  "total_wall_seconds": 2339.187822341919,
+  "training_manifest": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020/training_manifest.csv"
+}

@@ -1,0 +1,24 @@
+{
+  "bin_label": "1980_1989",
+  "source_file": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin/1980_1989.txt.gz",
+  "raw_stats": {
+    "line_count": 3289382,
+    "token_count": 20551330,
+    "avg_line_length": 6.247778458081184,
+    "min_line_length": 1,
+    "max_line_length": 950
+  },
+  "vocab_size_after_min_count": 17416,
+  "corpus_count_seen_by_gensim": 3289382,
+  "corpus_total_words_seen_by_gensim": 20551330,
+  "training_seconds": 52.84738516807556,
+  "model_files": {
+    "model": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020/1980_1989/model/1980_1989.model",
+    "keyed_vectors": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020/1980_1989/model/1980_1989.kv",
+    "vectors_txt": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020/1980_1989/model/1980_1989.vectors.txt",
+    "vectors_bin": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020/1980_1989/model/1980_1989.vectors.bin",
+    "vocab_csv": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020/1980_1989/reports/1980_1989.vocab.csv"
+  },
+  "target_neighbors_file": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020/1980_1989/reports/1980_1989.target_neighbors.json",
+  "epoch_losses": []
+}

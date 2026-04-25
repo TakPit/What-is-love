@@ -1,0 +1,47 @@
+{
+  "run_name": "1960_1970_1980_1990_2000_2010_2020",
+  "prep_run_id": "1960_1970_1980_1990_2000_2010_2020",
+  "input_dir": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin",
+  "output_dir": "results/phase1/training/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "selected_bins": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ],
+  "bin_files": {
+    "1960_1969": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin/1960_1969.txt.gz",
+    "1970_1979": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin/1970_1979.txt.gz",
+    "1980_1989": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin/1980_1989.txt.gz",
+    "1990_1999": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin/1990_1999.txt.gz",
+    "2000_2009": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin/2000_2009.txt.gz",
+    "2010_2019": "results/phase1/corpus_preparation_and_exploration/1960_1970_1980_1990_2000_2010_2020/sentences_by_bin/2010_2019.txt.gz"
+  },
+  "targets": [
+    "baby",
+    "broken",
+    "desire",
+    "forever",
+    "heart",
+    "hurt",
+    "kiss",
+    "love",
+    "mine",
+    "touch"
+  ],
+  "sgns_hyperparameters": {
+    "vector_size": 300,
+    "window": 4,
+    "min_count": 20,
+    "epochs": 5,
+    "negative": 5,
+    "sample": 0.0001,
+    "workers": 4,
+    "seed": 42,
+    "sg": 1,
+    "dynamic_window": false,
+    "compute_loss": false
+  }
+}

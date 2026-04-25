@@ -1,0 +1,92 @@
+{
+  "baby": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 37790,
+    "curr_count": 54815,
+    "self_cosine_before": 0.1184871718287468,
+    "self_cosine_after": 0.7073267102241516,
+    "delta": 0.5888395309448242
+  },
+  "broken": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 1698,
+    "curr_count": 2730,
+    "self_cosine_before": 0.15056444704532623,
+    "self_cosine_after": 0.7031297087669373,
+    "delta": 0.5525652766227722
+  },
+  "desire": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 574,
+    "curr_count": 1225,
+    "self_cosine_before": 0.12166383862495422,
+    "self_cosine_after": 0.6516256928443909,
+    "delta": 0.5299618244171143
+  },
+  "forever": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 2547,
+    "curr_count": 5012,
+    "self_cosine_before": 0.1280786395072937,
+    "self_cosine_after": 0.7419259548187256,
+    "delta": 0.6138473153114319
+  },
+  "heart": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 17833,
+    "curr_count": 19393,
+    "self_cosine_before": 0.13581866025924683,
+    "self_cosine_after": 0.7062273621559143,
+    "delta": 0.5704087018966675
+  },
+  "hurt": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 3138,
+    "curr_count": 3831,
+    "self_cosine_before": 0.1298101246356964,
+    "self_cosine_after": 0.7742790579795837,
+    "delta": 0.6444689035415649
+  },
+  "kiss": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 5224,
+    "curr_count": 3952,
+    "self_cosine_before": -0.07077329605817795,
+    "self_cosine_after": 0.7232549786567688,
+    "delta": 0.7940282821655273
+  },
+  "love": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 70949,
+    "curr_count": 116381,
+    "self_cosine_before": 0.05847618356347084,
+    "self_cosine_after": 0.823396623134613,
+    "delta": 0.7649204134941101
+  },
+  "mine": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 8030,
+    "curr_count": 9430,
+    "self_cosine_before": 0.05528345704078674,
+    "self_cosine_after": 0.7751632928848267,
+    "delta": 0.7198798656463623
+  },
+  "touch": {
+    "present_in_prev": true,
+    "present_in_curr": true,
+    "prev_count": 2168,
+    "curr_count": 5107,
+    "self_cosine_before": -0.057182859629392624,
+    "self_cosine_after": 0.7401003837585449,
+    "delta": 0.7972832322120667
+  }
+}

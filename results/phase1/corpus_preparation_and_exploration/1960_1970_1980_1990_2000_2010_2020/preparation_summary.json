@@ -1,0 +1,13 @@
+{
+  "input_files_seen": 10,
+  "rows_seen": 3179588,
+  "rows_missing_required": 116,
+  "rows_invalid_year": 0,
+  "rows_empty_lyrics": 0,
+  "rows_outside_requested_bins": 733148,
+  "rows_in_requested_bins": 2446324,
+  "rows_kept_for_training": 2446321,
+  "global_repeated_fillers_normalized": 1369699,
+  "global_filler_tokens_removed": 9459710,
+  "global_one_char_tokens_dropped": 2370435
+}

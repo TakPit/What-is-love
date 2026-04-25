@@ -1,0 +1,34 @@
+{
+  "aligned_run_dir": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "output_dir": "results/phase1/displacement/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "ordered_labels": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ],
+  "targets": [
+    "baby",
+    "broken",
+    "desire",
+    "forever",
+    "heart",
+    "hurt",
+    "kiss",
+    "love",
+    "mine",
+    "touch"
+  ],
+  "pair_min_count": 100,
+  "stable_min_count": 100,
+  "neighbors_topn": 20,
+  "inspect_top_k_per_pair": 50,
+  "inspect_top_k_range": 100,
+  "measurement": {
+    "primary": "cosine_distance_on_aligned_vectors",
+    "adjacent_rate_proxy": "cosine_distance_between_consecutive_labels",
+    "whole_range": "cosine_distance_between_1960_1969_and_2010_2019"
+  }
+}

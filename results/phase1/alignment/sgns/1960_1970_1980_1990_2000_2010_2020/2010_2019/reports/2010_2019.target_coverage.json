@@ -1,0 +1,42 @@
+{
+  "baby": {
+    "present": true,
+    "count": 845475
+  },
+  "broken": {
+    "present": true,
+    "count": 124095
+  },
+  "desire": {
+    "present": true,
+    "count": 28489
+  },
+  "forever": {
+    "present": true,
+    "count": 176296
+  },
+  "heart": {
+    "present": true,
+    "count": 563884
+  },
+  "hurt": {
+    "present": true,
+    "count": 114450
+  },
+  "kiss": {
+    "present": true,
+    "count": 106790
+  },
+  "love": {
+    "present": true,
+    "count": 1770599
+  },
+  "mine": {
+    "present": true,
+    "count": 218037
+  },
+  "touch": {
+    "present": true,
+    "count": 131783
+  }
+}

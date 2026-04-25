@@ -1,0 +1,136 @@
+{
+  "run_name": "config1",
+  "created_at_utc": "2026-04-25T14:04:53+00:00",
+  "created_by_script": "src/phase2/run_semantic_axes.py",
+  "config": "results/phase2/semantic_axes_preparation/semantic_axes_config1.json",
+  "item_summary": "results/phase2/semantic_axes_preparation/config1/config1.item_summary.csv",
+  "phase1_ready_json": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/phase2_ready.json",
+  "aligned_root": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020",
+  "parameters": {
+    "min_count": 20,
+    "neighbors_k": 15,
+    "pair_mode": "targets_only",
+    "custom_pair_file": null
+  },
+  "targets": [
+    "love",
+    "heart",
+    "baby",
+    "desire",
+    "kiss"
+  ],
+  "axes": [
+    {
+      "axis_id": "affection_vs_conflict",
+      "label": "Affection vs Conflict",
+      "positive_pole_name": "affection",
+      "negative_pole_name": "conflict",
+      "positive_anchors": [
+        "affection",
+        "cherish",
+        "darling",
+        "devotion",
+        "sweetheart"
+      ],
+      "negative_anchors": [
+        "broken",
+        "hurt",
+        "lonely",
+        "sorrow",
+        "tears"
+      ],
+      "notes": "Main hypothesis axis for whether intimacy language drifts toward tenderness or pain / breakup framing."
+    },
+    {
+      "axis_id": "romance_vs_desire",
+      "label": "Romance vs Desire/Sexuality",
+      "positive_pole_name": "romance",
+      "negative_pole_name": "desire",
+      "positive_anchors": [
+        "affection",
+        "cherish",
+        "devotion",
+        "sweetness",
+        "tenderness"
+      ],
+      "negative_anchors": [
+        "body",
+        "heat",
+        "lust",
+        "passion",
+        "temptation"
+      ],
+      "notes": "Separates affectionate/relational framing from more bodily or desire-driven framing."
+    },
+    {
+      "axis_id": "permanence_vs_transience",
+      "label": "Permanence vs Transience",
+      "positive_pole_name": "permanence",
+      "negative_pole_name": "transience",
+      "positive_anchors": [
+        "always",
+        "eternal",
+        "forever",
+        "lasting",
+        "permanent"
+      ],
+      "negative_anchors": [
+        "fleeting",
+        "gone",
+        "leave",
+        "passing"
+      ],
+      "notes": "Temporal-stability axis. This one is likely to need coverage-driven pruning because some anchors may be too rare in lyrics."
+    }
+  ],
+  "pairs": [
+    {
+      "word1": "baby",
+      "word2": "desire"
+    },
+    {
+      "word1": "baby",
+      "word2": "heart"
+    },
+    {
+      "word1": "baby",
+      "word2": "kiss"
+    },
+    {
+      "word1": "baby",
+      "word2": "love"
+    },
+    {
+      "word1": "desire",
+      "word2": "heart"
+    },
+    {
+      "word1": "desire",
+      "word2": "kiss"
+    },
+    {
+      "word1": "desire",
+      "word2": "love"
+    },
+    {
+      "word1": "heart",
+      "word2": "kiss"
+    },
+    {
+      "word1": "heart",
+      "word2": "love"
+    },
+    {
+      "word1": "kiss",
+      "word2": "love"
+    }
+  ],
+  "labels": [
+    "1960_1969",
+    "1970_1979",
+    "1980_1989",
+    "1990_1999",
+    "2000_2009",
+    "2010_2019"
+  ]
+}

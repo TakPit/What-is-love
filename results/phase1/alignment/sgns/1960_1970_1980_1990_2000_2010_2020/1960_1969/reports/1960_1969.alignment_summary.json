@@ -1,0 +1,13 @@
+{
+  "label": "1960_1969",
+  "is_base_label": true,
+  "aligned_to_previous_label": null,
+  "output_files": {
+    "keyed_vectors": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1960_1969/model/1960_1969.kv",
+    "vectors_txt": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1960_1969/model/1960_1969.vectors.txt",
+    "vectors_bin": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1960_1969/model/1960_1969.vectors.bin",
+    "cumulative_rotation_to_base": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1960_1969/model/1960_1969.cumulative_rotation_to_base.npy",
+    "vocab_csv": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1960_1969/reports/1960_1969.vocab.csv",
+    "target_coverage": "results/phase1/alignment/sgns/1960_1970_1980_1990_2000_2010_2020/1960_1969/reports/1960_1969.target_coverage.json"
+  }
+}

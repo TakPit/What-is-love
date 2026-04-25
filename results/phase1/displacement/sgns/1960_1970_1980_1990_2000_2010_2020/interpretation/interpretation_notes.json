@@ -1,0 +1,21 @@
+{
+  "how_to_read_rankings": {
+    "primary_measure": "cosine_distance on aligned vectors",
+    "highest_distance_words_are_candidates": true
+  },
+  "main_confounders": [
+    "low_frequency_instability",
+    "spelling_or_tokenization_artifacts",
+    "proper_names_or_named_entities",
+    "genre_composition_shift",
+    "polysemy_and_context_mixing"
+  ],
+  "recommended_words_to_take_seriously": [
+    "high distance in clean rankings",
+    "adequate counts across relevant labels",
+    "reasonable count stability across labels",
+    "not dominated by one adjacent jump",
+    "coherent nearest-neighbor changes",
+    "not obviously a name, filler, or artifact"
+  ]
+}
