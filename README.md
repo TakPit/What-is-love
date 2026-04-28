@@ -33,22 +33,7 @@ git config user.email "your_email@example.com"
 
 ---
 
-## 2. Load Python 3.11 on the HPC
-
-This project expects Python 3.11.
-
-If your cluster uses environment modules, load Python first. The exact module name may differ on your system.
-
-```bash
-module load python/3.11
-python --version
-```
-
-If your cluster does not use modules, just make sure `python` or `python3.11` points to Python 3.11.
-
----
-
-## 3. Install `uv` on the HPC
+## 2/3. Install `uv` on the HPC
 
 Install `uv` in your user space.
 
